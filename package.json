@@ -2,10 +2,12 @@
   "name": "jumbo-tail-ecommerce-search",
   "version": "1.0.0",
   "description": "This project implements an **e-commerce product search microservice** for a large electronics catalog (mobiles, accessories, laptops, gadgets), inspired by real-world platforms like Flipkart and Amazon. The focus is on **search relevance and ranking**, handling noisy Indian user queries such as Hinglish, spelling mistakes, and price-based intent.",
-  "main": "index.js",
+  "main": "src/index.js"
+,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "node src/index.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Shwetaaa-coder/jumbo-tail-ecommerce-search.git"
