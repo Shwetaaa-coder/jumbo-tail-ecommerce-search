@@ -6,7 +6,7 @@ const { searchProducts } = require("./search");
 const app = express();
 app.use(bodyParser.json());
 
-app.get("/health", (req, res) => {
+app.get("/", (req, res) => {
   res.status(200).json({ status: "ok" });
 });
 
