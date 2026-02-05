@@ -6,6 +6,11 @@ const { searchProducts } = require("./search");
 const app = express();
 app.use(bodyParser.json());
 
+app.get("/health", (req, res) => {
+  res.status(200).json({ status: "ok" });
+});
+
+
 /**
  * Store Product
  */
